@@ -9,15 +9,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Underline in text object
 - Recipe type / arg documentation
 - Add missing type `userPassword` to `EncryptOptions`
+- Underline in text object
 
 ### Added
 
-- Strikethrough implementation in text object
 - Add electron 23.2.
 - Recipe infos to readme
+- Strikethrough implementation in text object
 - Highlight implementation in text object
 
 ### Removed
