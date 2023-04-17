@@ -264,6 +264,7 @@ declare module "muhammara" {
   export interface WriteTextOptions extends FontOptions, ColorOptions {
     underline?: boolean;
     strikeOut?: boolean;
+    highlight? : boolean;
     lineWidth?: number;
   }
 
