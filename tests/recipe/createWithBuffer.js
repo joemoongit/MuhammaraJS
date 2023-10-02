@@ -8,6 +8,7 @@ describe("Modify", () => {
     const src = path.join(__dirname, "../TestMaterials/recipe/test.pdf");
     const myCats = path.join(__dirname, "../TestMaterials/recipe/myCats.jpg");
     const buffer = fs.readFileSync(src);
+    // console.log('fs read file sync return value/type', buffer)
     const recipe = new HummusRecipe(buffer);
     recipe
       .editPage(1)

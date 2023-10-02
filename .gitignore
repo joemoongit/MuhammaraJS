@@ -4,7 +4,7 @@ build
 tests/output
 tests/**/output
 binding
-node_modules
+node_modules*
 aws.json
 etc
 recipe-docs/
